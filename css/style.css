@@ -1,0 +1,348 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,ol{
+	list-style-type: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-right:20px;
+	padding-left: 20px;
+    text-transform: capitalize;
+   
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    transition: all linear .3s;
+}
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+z-index:9999;
+}
+.header-bg {
+	background:#600a0a;
+    animation animation-name: menu-bg;
+  transition: all linear .3s;
+}
+@keyframes menu-bg{
+  from{
+    top: -50px;
+  }
+  to{
+    top: 0;
+  }
+}
+.bannerphoto{
+
+	background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ 
+	padding-top:300px;
+	padding-bottom:300px;
+	
+}
+.bannercon h2{
+	
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+  font-weight:700;
+	font-size:52px;
+}
+.bannercon p{
+	padding-top:100px;
+	font-weight:700;
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+	font-size:22px;
+}
+.aboutcon h1{
+	padding-top: 100px;
+	padding-left: 50px;
+}
+.aboutcon p{
+	padding-left: 50px;
+	padding-top: 30px;
+}
+.aboutcon button{
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+	background: none;
+	color:red;
+	border: 1px solid red;
+	margin-left:90px;
+	border-radius:10%;
+}
+.aboutcon button:hover{
+	background: red;
+	color:white;
+	cursor:pointer;
+}
+.galhead h1{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top:50px;
+	margin-left: 40px;
+	color:darkred;
+}
+.project-btn{
+	margin-top: 50px;
+}
+.project-btn button{
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left:20px;
+	padding-right: 20px;
+	background:none;
+	border:3px solid red;
+}
+.project-btn button:hover{
+	background: red;
+	color:aliceblue;
+	transition: all linear .3s;
+}
+.project-gal{
+	position: relative;
+}
+.gal-img {
+	position: relative;
+	margin-top:10px;
+}
+.gal-img img{
+	 
+}
+.gal-img .overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	 height: 100%;
+  width: 100%;
+  background: rgba(17, 17, 17, 0.7);
+	transition: all linear .3s;
+	opacity:0;
+	
+	
+}
+.plus{
+	position:relative;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	height:50px;
+	width:50px;
+	background: red;
+	border-radius: 50%;
+} 
+.plus i{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color:white;
+}
+.project-gal:hover .gal-img .overlay{
+	opacity:1;
+}
+.foodbtn button{
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+	background: none;
+	color:red;
+	border: 1px solid red;
+	margin-left:90px;
+	border-radius:10%;
+	margin-top:40px;
+	margin-bottom: 60px;
+	margin-left:50px;
+}
+.foodbtn button:hover{
+	background: red;
+	color:white;
+	cursor:pointer;
+}
+#menu{
+	background: url(../images/carrots-food-fresh-freshness-616404.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top:100px;
+	padding-bottom:100px;
+	margin-top: 30px;
+}
+.menuhead h1{
+	color:darkred;
+	margin-bottom:100px;
+}
+.food{
+	margin-top: 50px;
+	
+}
+.price{
+	margin-left:30px;
+	position:relative;
+	
+}
+.price::before{
+	
+	position:absolute;
+	right:0px;
+	
+	content:'';
+}
+
+.testhead h1{
+	color:darkred;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.chef{
+	margin-bottom:100px;
+}
+.chef h4,h5{
+	padding-left: 50px;
+}
+#comment{
+	padding-top:50px;
+	padding-bottom:50px;
+	background:rgba(98, 23, 23, 0.7);
+	color:white;
+}
+.comhead h1{
+	color:aliceblue;
+	padding-bottom: 50px;
+}
+.tstar{
+	display: block;
+	color:goldenrod;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.eventhead h1{
+	padding-top:100px;
+	padding-bottom: 50px;
+}
+.eventimg{
+	margin-top: 50px;
+	position: relative;
+	margin-bottom: 80px;
+}
+ .overlay1{
+	position:absolute;
+	top:0;
+	left:0;
+	 height: 100%;
+  width: 100%;
+  background: rgba(17, 17, 17, 0.7);
+	transition: all linear .3s;
+	opacity:0;
+	
+	
+}
+.eventimg:hover .overlay1{
+	opacity:1;
+}
+.plus1{
+	position:relative;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	height:50px;
+	width:50px;
+	background: red;
+	border-radius: 50%;
+} 
+.plus1 i{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color:white;
+}
+.eventcon{
+	position:relative;
+	padding:30px;
+	background:red;
+}
+.eventcon h3{
+	color:aliceblue;
+}
+#timing{
+	
+	padding-top:100px;
+	padding-bottom: 100px;
+}
+.timehead h1{
+	margin-top: 50px;
+	margin-bottom:90px;
+}
+.time{
+	position:relative;
+	
+	padding-top:80px;
+	padding-bottom: 80px;
+	margin-left: 20px;
+	border-radius: 20%;
+	
+}
+.time img {
+	
+}
+.overlay3{
+	position:absolute;
+	top:0;
+	left:0;
+	 height: 100%;
+  width: 100%;
+  background: rgba(17, 17, 17, 0.7);
+	transition: all linear .3s;
+	opacity:1;
+	
+}
+.overlay3 h3{
+	color:white;
+	position: relative;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.overlay3 h5{
+	color:white;
+	position: relative;
+
+	   
+	margin-top:340px;
+}
+.circle{
+	position:relative;
+	margin-top:100px;
+	width:70px;
+	height:70px;
+	border-radius: 50%;
+	margin-left:80px;
+	background: red;
+	color:white;
+}
+.circle h4{
+	color:white;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+
